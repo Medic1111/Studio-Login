@@ -10,3 +10,9 @@ document.body.append(root);
 // UI-COMPONENTS
 const appNav = nav;
 root.appendChild(appNav);
+
+// GIT WORKFLOW
+// main === production
+// development ==== makes mistakes and fix them
+// feature/working branch === medic - natasha
+console.log("Explained git work flow");
