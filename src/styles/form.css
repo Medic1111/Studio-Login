@@ -1,0 +1,32 @@
+.form {
+  height: 60%;
+  width: 90%;
+  background-color: var(--shade);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.username,
+.password,
+.submit {
+  width: 80%;
+  height: 5vh;
+  border: transparent;
+  color: var(--black);
+  font-size: 1.7em;
+  padding-left: 0.25em;
+}
+
+.feedback {
+  font-size: 1.5em;
+  color: var(--rose);
+}
+
+.submit {
+  background-color: var(--amber);
+  text-align: center;
+  cursor: pointer;
+}

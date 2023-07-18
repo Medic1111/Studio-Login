@@ -1,8 +1,12 @@
 "use strict";
-// Components
-import nav from "./components/nav.js";
 // research "use strict"
 
+// COMPONENTS
+import nav from "./components/nav.js";
+import main from "./components/main.js";
+import binder from "./bizz/main.js";
+
+// ROOT
 const root = document.createElement("div");
 root.setAttribute("id", "root");
 document.body.append(root);
@@ -10,9 +14,7 @@ document.body.append(root);
 // UI-COMPONENTS
 const appNav = nav;
 root.appendChild(appNav);
+root.append(main);
 
-// GIT WORKFLOW
-// main === production
-// development ==== makes mistakes and fix them
-// feature/working branch === medic - natasha
-console.log("Explained git work flow");
+// BUSINESS LOGIC
+binder();
