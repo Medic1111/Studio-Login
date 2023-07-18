@@ -39,14 +39,13 @@ body {
   overflow-y: scroll;
 }
 
-.test {
-  color: var(--rose);
-  font-size: 2.7em;
+.main {
+  height: 92.5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-/* HERO */
-
-/* FORM */
 
 /* CONFIRM */
 
