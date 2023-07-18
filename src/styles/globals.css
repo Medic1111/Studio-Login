@@ -1,0 +1,55 @@
+:root {
+  --blue: #3b82f6;
+  --white: #f8fafc;
+  --teal: #14b8a6;
+  --rose: #f43f5e;
+  --amber: #f59e0b;
+  --black: #020617;
+  --shade: #f1f5f9;
+}
+
+/* sm: 640px */
+/* md: 768px */
+/* lg: 1024px */
+/* xl: 1280px */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* research browser default styles, removal */
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  height: inherit;
+  width: inherit;
+  background-color: var(--white);
+}
+
+#root {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.test {
+  color: var(--rose);
+  font-size: 2.7em;
+}
+
+/* HERO */
+
+/* FORM */
+
+/* CONFIRM */
+
+.hidden {
+  display: none !important;
+}
